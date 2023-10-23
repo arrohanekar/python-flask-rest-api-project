@@ -10,6 +10,22 @@ docker run -p 9001:9001 python-rest-api
 
 
 
-User and follow the below 
+## 3. User and follow the below 
 
 https://jhooq.com/getting-start-with-helm-chart/
+
+
+helloworld
+├── charts
+├── **Chart.yaml**
+├── templates
+│  ├── deployment.yaml
+│  ├── _helpers.tpl
+│  ├── hpa.yaml
+│  ├── ingress.yaml
+│  ├── NOTES.txt
+│  ├── serviceaccount.yaml
+│  ├── service.yaml
+│  └── tests
+│      └── test-connection.yaml
+└── **values.yaml**
